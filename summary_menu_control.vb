@@ -1,3 +1,8 @@
+'This script demos how to interact with tick boxes in excel used to hide and unhide
+'tabs in an excel workbook. 
+
+'Written by Shane Gore
+
 Private Sub CheckBox1_Click()
 If CheckBox1.Value = True Then
     Worksheets("Report_sheet1").Visible = True
